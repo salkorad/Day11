@@ -2,6 +2,7 @@
 var myNestedArray = [["Toblerone", 5],["Milka", 3]];
 
 function myNestedFunction(arr) {
+    myNestedArray = [...arr];
     return myNestedArray;
 }
 // Only change code above this line
