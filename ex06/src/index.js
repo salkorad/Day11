@@ -11,7 +11,7 @@ function multiplyArrayFunction(myArray) {
       }
       
     }
-    arr = [sum, product];
+    arr = [product, sum];
     return arr;
     
 }
